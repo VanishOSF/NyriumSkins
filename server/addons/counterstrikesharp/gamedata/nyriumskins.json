@@ -1,0 +1,36 @@
+{
+    "Elite_EconItemView_Update": {
+        "signatures": {
+            "library": "server",
+            "windows": "48 89 54 24 ? 48 89 4C 24 ? 53 57 48 81 EC ? ? ? ?",
+            "linux": "55 49 89 F0 48 89 E5 41 57 41 56 49 89 FE"
+        }
+    },
+    "Elite_WeaponServices_SelectItem": {
+        "offsets": { "windows": 30, "linux": 31 }
+    },
+    "Elite_WeaponServices_SwitchWeapon": {
+        "offsets": { "windows": 24, "linux": 25 }
+    },
+    "Elite_PlayerPawn_SetDefaultGloves": {
+        "signatures": {
+            "library": "server",
+            "windows": "48 85 C9 0F 84 ? ? ? ? 48 89 5C 24 ? 48 89 7C 24 ? 55 48 8B EC 48 83 EC ? 0F B6 DA 48 8B F9 8B 15",
+            "linux": "48 85 FF 0F 84 ? ? ? ? 55 48 89 E5 41 55 41 54 41 89 F4 53 48 89 FB 48 83 EC ? 8B 35 ? ? ? ? E8 ? ? ? ? 83 F8 ? 74 ? 45 84 E4 0F 85"
+        }
+    },
+    "Elite_WeaponServices_EquipWeapon": {
+        "signatures": {
+            "library": "server",
+            "windows": "48 89 5C 24 ? 57 48 83 EC ? 48 83 79 ? ? 48 8B FA 48 8B D9 75 ? E8 ? ? ? ? 48 8B 53",
+            "linux": "55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 8B 77"
+        }
+    },
+	"CAttributeList_SetOrAddAttributeValueByName": {
+		"signatures": {
+			"library": "server",
+			"windows": "40 53 55 41 56 48 81 EC 90 00 00 00",
+			"linux": "55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 53 48 89 F3 48 83 EC ? F3 0F 11 85"
+		}
+	}
+}

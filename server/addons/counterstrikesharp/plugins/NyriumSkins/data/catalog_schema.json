@@ -1,0 +1,41 @@
+{
+  "SchemaSHA256": "BF542A67A0E2FA41A57AABEFBCB9E0CD84FAB1CC4168D435EA95F4EA4C545BFC",
+  "Categories": [
+    {
+      "Category": "skins",
+      "Total": 2067,
+      "SchemaCandidates": 1456
+    },
+    {
+      "Category": "gloves",
+      "Total": 95,
+      "SchemaCandidates": 94
+    },
+    {
+      "Category": "agents",
+      "Total": 65,
+      "SchemaCandidates": 63
+    },
+    {
+      "Category": "stickers",
+      "Total": 11138,
+      "SchemaCandidates": 10432
+    },
+    {
+      "Category": "keychains",
+      "Total": 143,
+      "SchemaCandidates": 143
+    },
+    {
+      "Category": "music",
+      "Total": 102,
+      "SchemaCandidates": 102
+    },
+    {
+      "Category": "collectibles",
+      "Total": 657,
+      "SchemaCandidates": 618
+    }
+  ],
+  "Scope": "Installed CS2 schema; released loot entries and equipable collectibles. Existing entries retained. Not proof of in-game rendering or Steam ownership."
+}

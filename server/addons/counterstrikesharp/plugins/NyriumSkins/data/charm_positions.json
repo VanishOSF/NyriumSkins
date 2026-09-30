@@ -1,0 +1,623 @@
+[
+  {
+    "Definition": 1,
+    "Legacy": false,
+    "Model": "weapons/models/deagle/weapon_pist_deagle.vmdl_c",
+    "Bone": "slide",
+    "X": 1.4727609604597092,
+    "Y": 0.5882090330123901,
+    "Z": 3.2752312421798706
+  },
+  {
+    "Definition": 1,
+    "Legacy": true,
+    "Model": "weapons/models/deagle/weapon_pist_deagle.vmdl_c",
+    "Bone": "slide",
+    "X": 1.3963758125901222,
+    "Y": 0.5140653848648071,
+    "Z": 3.146827757358551
+  },
+  {
+    "Definition": 2,
+    "Legacy": false,
+    "Model": "weapons/models/elite/weapon_pist_elite.vmdl_c",
+    "Bone": "slide_r",
+    "X": 4.626399278640747,
+    "Y": 0.6118178367614746,
+    "Z": 3.669866919517517
+  },
+  {
+    "Definition": 2,
+    "Legacy": true,
+    "Model": "weapons/models/elite/weapon_pist_elite.vmdl_c",
+    "Bone": "slide_r",
+    "X": 4.590236857533455,
+    "Y": 0.5303539633750916,
+    "Z": 3.5958186984062195
+  },
+  {
+    "Definition": 3,
+    "Legacy": false,
+    "Model": "weapons/models/fiveseven/weapon_pist_fiveseven.vmdl_c",
+    "Bone": "slide",
+    "X": 1.438190519809723,
+    "Y": 0.5210571885108948,
+    "Z": 6.590535879135132
+  },
+  {
+    "Definition": 3,
+    "Legacy": true,
+    "Model": "weapons/models/fiveseven/weapon_pist_fiveseven.vmdl_c",
+    "Bone": "slide",
+    "X": 1.4038881659507751,
+    "Y": 0.5472164154052734,
+    "Z": 6.638933420181274
+  },
+  {
+    "Definition": 4,
+    "Legacy": false,
+    "Model": "weapons/models/glock18/weapon_pist_glock18.vmdl_c",
+    "Bone": "slide",
+    "X": 2.3831813037395477,
+    "Y": 0.4921088218688965,
+    "Z": 2.481898069381714
+  },
+  {
+    "Definition": 4,
+    "Legacy": true,
+    "Model": "weapons/models/glock18/weapon_pist_glock18.vmdl_c",
+    "Bone": "slide",
+    "X": 2.2869556546211243,
+    "Y": 0.4661438465118408,
+    "Z": 2.410720407962799
+  },
+  {
+    "Definition": 7,
+    "Legacy": false,
+    "Model": "weapons/models/ak47/weapon_rif_ak47.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 3.9465659260749817,
+    "Y": 0.6785853505134583,
+    "Z": 2.740113914012909
+  },
+  {
+    "Definition": 7,
+    "Legacy": true,
+    "Model": "weapons/models/ak47/weapon_rif_ak47.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 4.148569419980049,
+    "Y": 0.7524428367614746,
+    "Z": 2.8150123953819275
+  },
+  {
+    "Definition": 8,
+    "Legacy": false,
+    "Model": "weapons/models/aug/weapon_rif_aug.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 2.8781352043151855,
+    "Y": 0.5666852593421936,
+    "Z": 4.940217852592468
+  },
+  {
+    "Definition": 8,
+    "Legacy": true,
+    "Model": "weapons/models/aug/weapon_rif_aug.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 2.398326963186264,
+    "Y": 0.4421977996826172,
+    "Z": 5.034669041633606
+  },
+  {
+    "Definition": 9,
+    "Legacy": false,
+    "Model": "weapons/models/awp/weapon_snip_awp.vmdl_c",
+    "Bone": "rail",
+    "X": 4.259688317775726,
+    "Y": 0.6115070581436157,
+    "Z": 9.055145502090454
+  },
+  {
+    "Definition": 9,
+    "Legacy": true,
+    "Model": "weapons/models/awp/weapon_snip_awp.vmdl_c",
+    "Bone": "rail",
+    "X": 4.267618775367737,
+    "Y": 0.5911784172058105,
+    "Z": 9.046100854873657
+  },
+  {
+    "Definition": 10,
+    "Legacy": false,
+    "Model": "weapons/models/famas/weapon_rif_famas.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 9.828010439872742,
+    "Y": 0.6573514938354492,
+    "Z": 6.592964172363281
+  },
+  {
+    "Definition": 10,
+    "Legacy": true,
+    "Model": "weapons/models/famas/weapon_rif_famas.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 9.760255753993988,
+    "Y": 0.5844259262084961,
+    "Z": 6.429166674613953
+  },
+  {
+    "Definition": 11,
+    "Legacy": false,
+    "Model": "weapons/models/g3sg1/weapon_snip_g3sg1.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 16.752803564071655,
+    "Y": 0.769420862197876,
+    "Z": 5.997989058494568
+  },
+  {
+    "Definition": 11,
+    "Legacy": true,
+    "Model": "weapons/models/g3sg1/weapon_snip_g3sg1.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 16.798057556152344,
+    "Y": 0.7298216819763184,
+    "Z": 5.8265931606292725
+  },
+  {
+    "Definition": 13,
+    "Legacy": false,
+    "Model": "weapons/models/galilar/weapon_rif_galilar.vmdl_c",
+    "Bone": "plate",
+    "X": 6.2268325090408325,
+    "Y": 0.678687334060669,
+    "Z": 3.3564637303352356
+  },
+  {
+    "Definition": 13,
+    "Legacy": true,
+    "Model": "weapons/models/galilar/weapon_rif_galilar.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 6.492333889007568,
+    "Y": 0.7297394275665283,
+    "Z": 3.42883837223053
+  },
+  {
+    "Definition": 14,
+    "Legacy": false,
+    "Model": "weapons/models/m249/weapon_mach_m249.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 0.8741711378097534,
+    "Y": 0.9705066680908203,
+    "Z": 3.657119631767273
+  },
+  {
+    "Definition": 14,
+    "Legacy": true,
+    "Model": "weapons/models/m249/weapon_mach_m249.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 1.0249375700950623,
+    "Y": 0.7280247211456299,
+    "Z": 3.642251968383789
+  },
+  {
+    "Definition": 16,
+    "Legacy": false,
+    "Model": "weapons/models/m4a4/weapon_rif_m4a4.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 20.456984043121338,
+    "Y": 0.6240411996841431,
+    "Z": 10.571313619613647
+  },
+  {
+    "Definition": 16,
+    "Legacy": true,
+    "Model": "weapons/models/m4a4/weapon_rif_m4a4.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 20.42673397064209,
+    "Y": 0.7190392017364502,
+    "Z": 11.380451917648315
+  },
+  {
+    "Definition": 17,
+    "Legacy": false,
+    "Model": "weapons/models/mac10/weapon_smg_mac10.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 7.277625620365143,
+    "Y": 0.9749612808227539,
+    "Z": 3.6614394187927246
+  },
+  {
+    "Definition": 17,
+    "Legacy": true,
+    "Model": "weapons/models/mac10/weapon_smg_mac10.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 7.41456538438797,
+    "Y": 0.7578830718994141,
+    "Z": 3.6184433698654175
+  },
+  {
+    "Definition": 19,
+    "Legacy": false,
+    "Model": "weapons/models/p90/weapon_smg_p90.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": -0.8647229075431824,
+    "Y": 0.9132223725318909,
+    "Z": 4.555349826812744
+  },
+  {
+    "Definition": 19,
+    "Legacy": true,
+    "Model": "weapons/models/p90/weapon_smg_p90.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": -0.48075270652770996,
+    "Y": 0.8629622459411621,
+    "Z": 4.5399192571640015
+  },
+  {
+    "Definition": 23,
+    "Legacy": false,
+    "Model": "weapons/models/mp5sd/weapon_smg_mp5sd.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 2.3967512398958206,
+    "Y": 1.0621867179870605,
+    "Z": 3.5877429246902466
+  },
+  {
+    "Definition": 23,
+    "Legacy": true,
+    "Model": "weapons/models/mp5sd/weapon_smg_mp5sd.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 2.294340282678604,
+    "Y": 0.9919567108154297,
+    "Z": 3.5626638531684875
+  },
+  {
+    "Definition": 24,
+    "Legacy": false,
+    "Model": "weapons/models/ump45/weapon_smg_ump45.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 7.3172667026519775,
+    "Y": 0.7881977558135986,
+    "Z": 3.652141749858856
+  },
+  {
+    "Definition": 24,
+    "Legacy": true,
+    "Model": "weapons/models/ump45/weapon_smg_ump45.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 7.4054113030433655,
+    "Y": 0.9315181970596313,
+    "Z": 3.6792730689048767
+  },
+  {
+    "Definition": 25,
+    "Legacy": false,
+    "Model": "weapons/models/xm1014/weapon_shot_xm1014.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 2.8781197778880596,
+    "Y": 0.5989840030670166,
+    "Z": 2.961637258529663
+  },
+  {
+    "Definition": 25,
+    "Legacy": true,
+    "Model": "weapons/models/xm1014/weapon_shot_xm1014.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 3.147824391722679,
+    "Y": 0.7710914611816406,
+    "Z": 2.890233039855957
+  },
+  {
+    "Definition": 26,
+    "Legacy": false,
+    "Model": "weapons/models/bizon/weapon_smg_bizon.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 3.222705841064453,
+    "Y": 0.7637757062911987,
+    "Z": 2.5935717821121216
+  },
+  {
+    "Definition": 26,
+    "Legacy": true,
+    "Model": "weapons/models/bizon/weapon_smg_bizon.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 3.414556324481964,
+    "Y": 0.6852989196777344,
+    "Z": 2.661416232585907
+  },
+  {
+    "Definition": 27,
+    "Legacy": false,
+    "Model": "weapons/models/mag7/weapon_shot_mag7.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": -3.971493184566498,
+    "Y": 0.9073890447616577,
+    "Z": 8.033631205558777
+  },
+  {
+    "Definition": 27,
+    "Legacy": true,
+    "Model": "weapons/models/mag7/weapon_shot_mag7.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": -4.079655885696411,
+    "Y": 0.9400193691253662,
+    "Z": 8.01402723789215
+  },
+  {
+    "Definition": 28,
+    "Legacy": false,
+    "Model": "weapons/models/negev/weapon_mach_negev.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": -3.3431590795516968,
+    "Y": 1.3027337789535522,
+    "Z": 4.397896826267242
+  },
+  {
+    "Definition": 28,
+    "Legacy": true,
+    "Model": "weapons/models/negev/weapon_mach_negev.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": -3.9629331827163696,
+    "Y": 1.364231824874878,
+    "Z": 4.1291468143463135
+  },
+  {
+    "Definition": 29,
+    "Legacy": false,
+    "Model": "weapons/models/sawedoff/weapon_shot_sawedoff.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 6.34405392408371,
+    "Y": 0.6973544359207153,
+    "Z": 0.7640310525894165
+  },
+  {
+    "Definition": 29,
+    "Legacy": true,
+    "Model": "weapons/models/sawedoff/weapon_shot_sawedoff.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 6.185344338417053,
+    "Y": 0.533944845199585,
+    "Z": 0.8542369902133942
+  },
+  {
+    "Definition": 30,
+    "Legacy": false,
+    "Model": "weapons/models/tec9/weapon_pist_tec9.vmdl_c",
+    "Bone": "slide",
+    "X": 10.187482595443726,
+    "Y": 1.3365965783596039,
+    "Z": 6.538767695426941
+  },
+  {
+    "Definition": 30,
+    "Legacy": true,
+    "Model": "weapons/models/tec9/weapon_pist_tec9.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 15.999080896377563,
+    "Y": 0.7748891115188599,
+    "Z": 5.668140292167664
+  },
+  {
+    "Definition": 31,
+    "Legacy": false,
+    "Model": "weapons/models/taser/weapon_pist_taser.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 4.816116154193878,
+    "Y": 0.8607466220855713,
+    "Z": 5.169717192649841
+  },
+  {
+    "Definition": 32,
+    "Legacy": false,
+    "Model": "weapons/models/hkp2000/weapon_pist_hkp2000.vmdl_c",
+    "Bone": "slide",
+    "X": 5.518047630786896,
+    "Y": 0.5224928855895996,
+    "Z": 3.424670934677124
+  },
+  {
+    "Definition": 32,
+    "Legacy": true,
+    "Model": "weapons/models/hkp2000/weapon_pist_hkp2000.vmdl_c",
+    "Bone": "slide",
+    "X": 5.5360506772994995,
+    "Y": 0.563503623008728,
+    "Z": 3.4429879188537598
+  },
+  {
+    "Definition": 33,
+    "Legacy": false,
+    "Model": "weapons/models/mp7/weapon_smg_mp7.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": -3.613735556602478,
+    "Y": 0.5432727336883545,
+    "Z": 2.244272530078888
+  },
+  {
+    "Definition": 33,
+    "Legacy": true,
+    "Model": "weapons/models/mp7/weapon_smg_mp7.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": -3.6251671612262726,
+    "Y": 0.5092775821685791,
+    "Z": 2.351049840450287
+  },
+  {
+    "Definition": 34,
+    "Legacy": false,
+    "Model": "weapons/models/mp9/weapon_smg_mp9.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 6.549335598945618,
+    "Y": 0.3904920220375061,
+    "Z": 6.342255711555481
+  },
+  {
+    "Definition": 34,
+    "Legacy": true,
+    "Model": "weapons/models/mp9/weapon_smg_mp9.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 6.57472437620163,
+    "Y": 0.3272695541381836,
+    "Z": 6.34830641746521
+  },
+  {
+    "Definition": 35,
+    "Legacy": false,
+    "Model": "weapons/models/nova/weapon_shot_nova.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 5.756895065307617,
+    "Y": 0.4497351050376892,
+    "Z": 5.2438682317733765
+  },
+  {
+    "Definition": 35,
+    "Legacy": true,
+    "Model": "weapons/models/nova/weapon_shot_nova.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 5.600593328475952,
+    "Y": 0.48947203159332275,
+    "Z": 5.090589284896851
+  },
+  {
+    "Definition": 36,
+    "Legacy": false,
+    "Model": "weapons/models/p250/weapon_pist_p250.vmdl_c",
+    "Bone": "slide",
+    "X": 4.742416143417358,
+    "Y": 0.5020684003829956,
+    "Z": 5.1290282011032104
+  },
+  {
+    "Definition": 36,
+    "Legacy": true,
+    "Model": "weapons/models/p250/weapon_pist_p250.vmdl_c",
+    "Bone": "slide",
+    "X": 4.696860760450363,
+    "Y": 0.46546316146850586,
+    "Z": 5.157046675682068
+  },
+  {
+    "Definition": 38,
+    "Legacy": false,
+    "Model": "weapons/models/scar20/weapon_snip_scar20.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 17.768774032592773,
+    "Y": 0.7772603034973145,
+    "Z": 12.047621011734009
+  },
+  {
+    "Definition": 38,
+    "Legacy": true,
+    "Model": "weapons/models/scar20/weapon_snip_scar20.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 17.76389455795288,
+    "Y": 0.6650664806365967,
+    "Z": 12.026621103286743
+  },
+  {
+    "Definition": 39,
+    "Legacy": false,
+    "Model": "weapons/models/sg556/weapon_rif_sg556.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 7.094738066196442,
+    "Y": 0.6267335414886475,
+    "Z": 2.9584521651268005
+  },
+  {
+    "Definition": 39,
+    "Legacy": true,
+    "Model": "weapons/models/sg556/weapon_rif_sg556.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 7.385766685009003,
+    "Y": 0.572443962097168,
+    "Z": 3.205640733242035
+  },
+  {
+    "Definition": 40,
+    "Legacy": false,
+    "Model": "weapons/models/ssg08/weapon_snip_ssg08.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 8.274995565414429,
+    "Y": 0.980191707611084,
+    "Z": 3.84402072429657
+  },
+  {
+    "Definition": 40,
+    "Legacy": true,
+    "Model": "weapons/models/ssg08/weapon_snip_ssg08.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 9.925244331359863,
+    "Y": 1.0194423198699951,
+    "Z": 3.772138476371765
+  },
+  {
+    "Definition": 60,
+    "Legacy": false,
+    "Model": "weapons/models/m4a1_silencer/weapon_rif_m4a1_silencer.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 3.671178102493286,
+    "Y": 0.6834689378738403,
+    "Z": 4.783433675765991
+  },
+  {
+    "Definition": 60,
+    "Legacy": true,
+    "Model": "weapons/models/m4a1_silencer/weapon_rif_m4a1_silencer.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 3.5757638216018677,
+    "Y": 0.734493613243103,
+    "Z": 4.774977803230286
+  },
+  {
+    "Definition": 61,
+    "Legacy": false,
+    "Model": "weapons/models/usp_silencer/weapon_pist_usp_silencer.vmdl_c",
+    "Bone": "slide",
+    "X": 3.5579510629177094,
+    "Y": 0.6291540265083313,
+    "Z": 3.7684611082077026
+  },
+  {
+    "Definition": 61,
+    "Legacy": true,
+    "Model": "weapons/models/usp_silencer/weapon_pist_usp_silencer.vmdl_c",
+    "Bone": "slide",
+    "X": 3.786461591720581,
+    "Y": 0.571069598197937,
+    "Z": 3.673370063304901
+  },
+  {
+    "Definition": 63,
+    "Legacy": false,
+    "Model": "weapons/models/cz75a/weapon_pist_cz75a.vmdl_c",
+    "Bone": "slide",
+    "X": 3.9557389318943024,
+    "Y": 0.41492700576782227,
+    "Z": 5.163893342018127
+  },
+  {
+    "Definition": 63,
+    "Legacy": true,
+    "Model": "weapons/models/cz75a/weapon_pist_cz75a.vmdl_c",
+    "Bone": "slide",
+    "X": 4.025534212589264,
+    "Y": 0.479367196559906,
+    "Z": 5.16974151134491
+  },
+  {
+    "Definition": 64,
+    "Legacy": false,
+    "Model": "weapons/models/revolver/weapon_pist_revolver.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 7.8691041469573975,
+    "Y": 0.47825920581817627,
+    "Z": 4.242116332054138
+  },
+  {
+    "Definition": 64,
+    "Legacy": true,
+    "Model": "weapons/models/revolver/weapon_pist_revolver.vmdl_c",
+    "Bone": "weapon_offset",
+    "X": 9.204959869384766,
+    "Y": 0.28288590908050537,
+    "Z": 4.439963698387146
+  }
+]

@@ -1,0 +1,15 @@
+*.pdb
+*.zip
+*.rar
+*.7z
+*.sql
+*.log
+*.cs
+*.csproj
+*.sln
+**/bin/
+**/obj/
+**/source/
+**/sources/
+.env
+.env.*
