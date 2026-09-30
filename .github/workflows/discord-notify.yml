@@ -1,0 +1,90 @@
+name: Discord announcements
+
+on:
+  push:
+    branches: [main]
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    env:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      DISCORD_MENTION: ${{ vars.DISCORD_MENTION }}
+      DISCORD_PING_COMMITS: ${{ vars.DISCORD_PING_COMMITS }}
+    steps:
+      - name: Check webhook configuration
+        if: env.DISCORD_WEBHOOK_URL == ''
+        run: echo "::warning::Add the DISCORD_WEBHOOK_URL repository secret to activate Discord announcements."
+
+      - name: Send NyriumSkins announcement
+        if: env.DISCORD_WEBHOOK_URL != ''
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          async function main() {
+            const event = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
+            const kind = process.env.GITHUB_EVENT_NAME;
+            if (kind === 'push' && event.deleted) return;
+            const url = new URL(process.env.DISCORD_WEBHOOK_URL);
+            if (url.protocol !== 'https:' || url.hostname !== 'discord.com' ||
+                !/^\/api(?:\/v\d+)?\/webhooks\/\d+\/[^/]+\/?$/.test(url.pathname)) {
+              throw new Error('Invalid Discord webhook configuration.');
+            }
+            url.searchParams.set('wait', 'true');
+            const repository = process.env.GITHUB_REPOSITORY;
+            const repoUrl = `https://github.com/${repository}`;
+            const release = kind === 'release';
+            const limit = (value, max) => String(value ?? '').slice(0, max);
+            const escape = value => limit(value, 180).replace(/[\\`*_~\[\]<>]/g, '\\$&');
+            const commits = Array.isArray(event.commits) ? event.commits : [];
+            const embed = {
+              author: { name: 'NYRIUM-SKINS', url: 'https://nyrium.global' },
+              title: release ? limit(`New release: ${event.release.tag_name}`, 256)
+                : kind === 'push' ? 'NyriumSkins repository update' : 'NyriumSkins notification test',
+              url: release ? event.release.html_url : (event.compare || repoUrl),
+              color: release ? 0xD4AF37 : 0x54C7DB,
+              description: release
+                ? limit(event.release.body || 'A new version is available. Open the release for details and downloads.', 3000)
+                : kind === 'push'
+                  ? commits.slice(-6).map(c => `[${c.id.slice(0, 7)}](${repoUrl}/commit/${c.id}) ${escape(c.message.split('\n')[0])}`).join('\n') || 'The main branch has been updated.'
+                  : 'Discord announcements are connected successfully. This test does not ping members.',
+              fields: [
+                { name: 'Project', value: `[NyriumSkins](${repoUrl})`, inline: true },
+                { name: 'Published by', value: escape(event.sender?.login || process.env.GITHUB_ACTOR), inline: true },
+                { name: 'Links', value: `[Website](https://nyrium.global) | [Discord](https://discord.gg/FmGBPWTkDP) | [Releases](${repoUrl}/releases)` }
+              ],
+              footer: { text: release ? 'NyriumSkins | Release announcement' : 'NyriumSkins | Development activity' },
+              timestamp: new Date().toISOString()
+            };
+            const allowed = { parse: [], users: [], roles: [] };
+            let mention = '';
+            const ping = release || (kind === 'push' && process.env.DISCORD_PING_COMMITS === 'true');
+            const configured = process.env.DISCORD_MENTION || '';
+            if (ping && configured === 'everyone') { mention = '@everyone'; allowed.parse = ['everyone']; }
+            else if (ping && /^\d{17,20}$/.test(configured)) { mention = `<@&${configured}>`; allowed.roles = [configured]; }
+            const payload = {
+              username: 'NyriumSkins Updates',
+              content: `${mention}${mention ? '\n' : ''}${release ? 'A new NyriumSkins release is available!' : 'News from NyriumSkins.'}`,
+              allowed_mentions: allowed,
+              embeds: [embed]
+            };
+            const response = await fetch(url, {
+              method: 'POST', headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload), signal: AbortSignal.timeout(20000)
+            });
+            if (!response.ok) throw new Error(`Discord returned HTTP ${response.status}.`);
+            console.log('Discord announcement delivered.');
+          }
+          main().catch(error => {
+            // Never log webhook URLs, HTTP bodies or commit-supplied content on failure.
+            console.error(error.message.startsWith('Discord returned HTTP') ? error.message : 'Discord announcement failed; verify the webhook secret and connection.');
+            process.exitCode = 1;
+          });
+          NODE
