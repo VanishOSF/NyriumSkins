@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "NyriumSkins/0.1.0": {
+      "NyriumSkins/0.2.0": {
         "dependencies": {
           "CounterStrikeSharp.API": "1.0.375",
           "Dapper": "2.1.72",
@@ -557,7 +557,7 @@
     }
   },
   "libraries": {
-    "NyriumSkins/0.1.0": {
+    "NyriumSkins/0.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

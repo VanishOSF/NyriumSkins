@@ -1,392 +1,717 @@
 [
-    {
-        "id": "1",
-        "name": "Брелок | Крошка Ава",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-1.png"
-    },
-    {
-        "id": "2",
-        "name": "Брелок | Бешеный банан",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-2.png"
-    },
-    {
-        "id": "3",
-        "name": "Брелок | Крошка Усатик",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-3.png"
-    },
-    {
-        "id": "4",
-        "name": "Брелок | Крошка Пляжник",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-4.png"
-    },
-    {
-        "id": "5",
-        "name": "Брелок | Крошка Цыпа",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-5.png"
-    },
-    {
-        "id": "6",
-        "name": "Брелок | Крошка Крэсс",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-6.png"
-    },
-    {
-        "id": "7",
-        "name": "Брелок | Воющая колбаска",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-7.png"
-    },
-    {
-        "id": "8",
-        "name": "Брелок | Здоровяк Кев",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-8.png"
-    },
-    {
-        "id": "9",
-        "name": "Брелок | Крошка Монстр",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-9.png"
-    },
-    {
-        "id": "10",
-        "name": "Брелок | Острый соус",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-10.png"
-    },
-    {
-        "id": "11",
-        "name": "Брелок | Бриллиантовая колбаска",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-11.png"
-    },
-    {
-        "id": "12",
-        "name": "Брелок | Щепотка соли",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-12.png"
-    },
-    {
-        "id": "13",
-        "name": "Брелок | Закусочная колбаска",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-13.png"
-    },
-    {
-        "id": "14",
-        "name": "Брелок | Крошка Чашка",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-14.png"
-    },
-    {
-        "id": "15",
-        "name": "Брелок | Крошка SAS",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-15.png"
-    },
-    {
-        "id": "16",
-        "name": "Брелок | Колбаска на огне",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-16.png"
-    },
-    {
-        "id": "17",
-        "name": "Брелок | Мини-калаш",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-17.png"
-    },
-    {
-        "id": "18",
-        "name": "Брелок | Литой калаш",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-18.png"
-    },
-    {
-        "id": "19",
-        "name": "Брелок | Карманная AWP",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-19.png"
-    },
-    {
-        "id": "20",
-        "name": "Брелок | Титанюсенькая AWP",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-20.png"
-    },
-    {
-        "id": "21",
-        "name": "Брелок | Мини-карат (спецназ)",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-21.png"
-    },
-    {
-        "id": "22",
-        "name": "Брелок | Резной резачок",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-22.png"
-    },
-    {
-        "id": "23",
-        "name": "Брелок | Поп-арт",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-23.png"
-    },
-    {
-        "id": "24",
-        "name": "Брелок | Крошка Пшик",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-24.png"
-    },
-    {
-        "id": "25",
-        "name": "Брелок | Дисколет-пулемёт",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-25.png"
-    },
-    {
-        "id": "26",
-        "name": "Брелок | Кафель",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-26.png"
-    },
-    {
-        "id": "27",
-        "name": "Брелок | Крошка Пистон",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-27.png"
-    },
-    {
-        "id": "28",
-        "name": "Брелок | Стреляй, пока горячо",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-28.png"
-    },
-    {
-        "id": "29",
-        "name": "Брелок | Самоцвет",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-29.png"
-    },
-    {
-        "id": "30",
-        "name": "Брелок | Мини-карат (террорист)",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-30.png"
-    },
-    {
-        "id": "31",
-        "name": "Брелок | Гламурный стрелок",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-31.png"
-    },
-    {
-        "id": "32",
-        "name": "Брелок | Шерстолет",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-32.png"
-    },
-    {
-        "id": "33",
-        "name": "Брелок | Крошка Спорт-сквоч",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-33.png"
-    },
-    {
-        "id": "38",
-        "name": "Брелок | Крошка-проклятье",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-38.png"
-    },
-    {
-        "id": "39",
-        "name": "Брелок | Крошка Змей",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-39.png"
-    },
-    {
-        "id": "40",
-        "name": "Брелок | Крошка Баскетболист",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-40.png"
-    },
-    {
-        "id": "41",
-        "name": "Брелок | Мёртвый груз",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-41.png"
-    },
-    {
-        "id": "42",
-        "name": "Брелок | Колючий крошка",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-42.png"
-    },
-    {
-        "id": "43",
-        "name": "Брелок | Крошка Бургер",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-43.png"
-    },
-    {
-        "id": "44",
-        "name": "Брелок | Крошка Дымок",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-44.png"
-    },
-    {
-        "id": "45",
-        "name": "Брелок | Зловещий крошка",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-45.png"
-    },
-    {
-        "id": "46",
-        "name": "Брелок | Крошка Весельчак",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-46.png"
-    },
-    {
-        "id": "47",
-        "name": "Брелок | Магмовый",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-47.png"
-    },
-    {
-        "id": "48",
-        "name": "Брелок | Крошка Хохотун",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-48.png"
-    },
-    {
-        "id": "49",
-        "name": "Брелок | Ртутный",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-49.png"
-    },
-    {
-        "id": "50",
-        "name": "Брелок | Крошка Карандаш",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-50.png"
-    },
-    {
-        "id": "51",
-        "name": "Брелок | Крошка Пиньята",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-51.png"
-    },
-    {
-        "id": "52",
-        "name": "Брелок | Карманный попсикл",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-52.png"
-    },
-    {
-        "id": "53",
-        "name": "Брелок | Крошка Герой",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-53.png"
-    },
-    {
-        "id": "54",
-        "name": "Брелок | Крошка Бивень",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-54.png"
-    },
-    {
-        "id": "55",
-        "name": "Брелок | Крошка Слизь",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-55.png"
-    },
-    {
-        "id": "56",
-        "name": "Брелок | Гавайский вайб",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-56.png"
-    },
-    {
-        "id": "57",
-        "name": "Брелок | Крошка Винодел",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-57.png"
-    },
-    {
-        "id": "58",
-        "name": "Брелок | Крошка Полароид",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-58.png"
-    },
-    {
-        "id": "59",
-        "name": "Брелок | Крошка Привидение",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-59.png"
-    },
-    {
-        "id": "60",
-        "name": "Брелок | Крошка Птенчик",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-60.png"
-    },
-    {
-        "id": "61",
-        "name": "Брелок | Мегамозг",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-61.png"
-    },
-    {
-        "id": "62",
-        "name": "Брелок | Биомеханический",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-62.png"
-    },
-    {
-        "id": "63",
-        "name": "Брелок | Взрывкот",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-63.png"
-    },
-    {
-        "id": "64",
-        "name": "Брелок | Жёсткий",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-64.png"
-    },
-    {
-        "id": "65",
-        "name": "Брелок | Пушок",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-65.png"
-    },
-    {
-        "id": "66",
-        "name": "Брелок | Резной",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-66.png"
-    },
-    {
-        "id": "67",
-        "name": "Брелок | Крошка Дзэн",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-67.png"
-    },
-    {
-        "id": "68",
-        "name": "Брелок | Крошка с подтяжкой",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-68.png"
-    },
-    {
-        "id": "69",
-        "name": "Брелок | Крошка Зубастик",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-69.png"
-    },
-    {
-        "id": "70",
-        "name": "Брелок | Чёртов крошка",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-70.png"
-    },
-    {
-        "id": "71",
-        "name": "Брелок | Крошка Пельмень",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-71.png"
-    },
-    {
-        "id": "72",
-        "name": "Брелок | Бомбезное граффити",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-72.png"
-    },
-    {
-        "id": "73",
-        "name": "Брелок | Блестящая бомба",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-73.png"
-    },
-    {
-        "id": "74",
-        "name": "Брелок | Эко-крошка",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-74.png"
-    },
-    {
-        "id": "75",
-        "name": "Брелок | Голодные глаза",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-75.png"
-    },
-    {
-        "id": "76",
-        "name": "Брелок | Всевидящий глаз",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-76.png"
-    },
-    {
-        "id": "77",
-        "name": "Брелок | Крошка Йети",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-77.png"
-    },
-    {
-        "id": "78",
-        "name": "Брелок | Восьмёрка лидера",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-78.png"
-    },
-    {
-        "id": "79",
-        "name": "Брелок | Вспыхивающая бомба",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-79.png"
-    },
-    {
-        "id": "80",
-        "name": "Брелок | Адский крошка",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-80.png"
-    },
-    {
-        "id": "81",
-        "name": "Брелок | Братан-бутан",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-81.png"
-    },
-    {
-        "id": "82",
-        "name": "Брелок | Доктор Брайан",
-        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-82.png"
-    }
+  {
+    "id": "1",
+    "name": "Брелок | Крошка Ава",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-1.png"
+  },
+  {
+    "id": "2",
+    "name": "Брелок | Бешеный банан",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-2.png"
+  },
+  {
+    "id": "3",
+    "name": "Брелок | Крошка Усатик",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-3.png"
+  },
+  {
+    "id": "4",
+    "name": "Брелок | Крошка Пляжник",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-4.png"
+  },
+  {
+    "id": "5",
+    "name": "Брелок | Крошка Цыпа",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-5.png"
+  },
+  {
+    "id": "6",
+    "name": "Брелок | Крошка Крэсс",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-6.png"
+  },
+  {
+    "id": "7",
+    "name": "Брелок | Воющая колбаска",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-7.png"
+  },
+  {
+    "id": "8",
+    "name": "Брелок | Здоровяк Кев",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-8.png"
+  },
+  {
+    "id": "9",
+    "name": "Брелок | Крошка Монстр",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-9.png"
+  },
+  {
+    "id": "10",
+    "name": "Брелок | Острый соус",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-10.png"
+  },
+  {
+    "id": "11",
+    "name": "Брелок | Бриллиантовая колбаска",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-11.png"
+  },
+  {
+    "id": "12",
+    "name": "Брелок | Щепотка соли",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-12.png"
+  },
+  {
+    "id": "13",
+    "name": "Брелок | Закусочная колбаска",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-13.png"
+  },
+  {
+    "id": "14",
+    "name": "Брелок | Крошка Чашка",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-14.png"
+  },
+  {
+    "id": "15",
+    "name": "Брелок | Крошка SAS",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-15.png"
+  },
+  {
+    "id": "16",
+    "name": "Брелок | Колбаска на огне",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-16.png"
+  },
+  {
+    "id": "17",
+    "name": "Брелок | Мини-калаш",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-17.png"
+  },
+  {
+    "id": "18",
+    "name": "Брелок | Литой калаш",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-18.png"
+  },
+  {
+    "id": "19",
+    "name": "Брелок | Карманная AWP",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-19.png"
+  },
+  {
+    "id": "20",
+    "name": "Брелок | Титанюсенькая AWP",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-20.png"
+  },
+  {
+    "id": "21",
+    "name": "Брелок | Мини-карат (спецназ)",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-21.png"
+  },
+  {
+    "id": "22",
+    "name": "Брелок | Резной резачок",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-22.png"
+  },
+  {
+    "id": "23",
+    "name": "Брелок | Поп-арт",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-23.png"
+  },
+  {
+    "id": "24",
+    "name": "Брелок | Крошка Пшик",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-24.png"
+  },
+  {
+    "id": "25",
+    "name": "Брелок | Дисколет-пулемёт",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-25.png"
+  },
+  {
+    "id": "26",
+    "name": "Брелок | Кафель",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-26.png"
+  },
+  {
+    "id": "27",
+    "name": "Брелок | Крошка Пистон",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-27.png"
+  },
+  {
+    "id": "28",
+    "name": "Брелок | Стреляй, пока горячо",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-28.png"
+  },
+  {
+    "id": "29",
+    "name": "Брелок | Самоцвет",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-29.png"
+  },
+  {
+    "id": "30",
+    "name": "Брелок | Мини-карат (террорист)",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-30.png"
+  },
+  {
+    "id": "31",
+    "name": "Брелок | Гламурный стрелок",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-31.png"
+  },
+  {
+    "id": "32",
+    "name": "Брелок | Шерстолет",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-32.png"
+  },
+  {
+    "id": "33",
+    "name": "Брелок | Крошка Спорт-сквоч",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-33.png"
+  },
+  {
+    "id": "38",
+    "name": "Брелок | Крошка-проклятье",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-38.png"
+  },
+  {
+    "id": "39",
+    "name": "Брелок | Крошка Змей",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-39.png"
+  },
+  {
+    "id": "40",
+    "name": "Брелок | Крошка Баскетболист",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-40.png"
+  },
+  {
+    "id": "41",
+    "name": "Брелок | Мёртвый груз",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-41.png"
+  },
+  {
+    "id": "42",
+    "name": "Брелок | Колючий крошка",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-42.png"
+  },
+  {
+    "id": "43",
+    "name": "Брелок | Крошка Бургер",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-43.png"
+  },
+  {
+    "id": "44",
+    "name": "Брелок | Крошка Дымок",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-44.png"
+  },
+  {
+    "id": "45",
+    "name": "Брелок | Зловещий крошка",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-45.png"
+  },
+  {
+    "id": "46",
+    "name": "Брелок | Крошка Весельчак",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-46.png"
+  },
+  {
+    "id": "47",
+    "name": "Брелок | Магмовый",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-47.png"
+  },
+  {
+    "id": "48",
+    "name": "Брелок | Крошка Хохотун",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-48.png"
+  },
+  {
+    "id": "49",
+    "name": "Брелок | Ртутный",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-49.png"
+  },
+  {
+    "id": "50",
+    "name": "Брелок | Крошка Карандаш",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-50.png"
+  },
+  {
+    "id": "51",
+    "name": "Брелок | Крошка Пиньята",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-51.png"
+  },
+  {
+    "id": "52",
+    "name": "Брелок | Карманный попсикл",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-52.png"
+  },
+  {
+    "id": "53",
+    "name": "Брелок | Крошка Герой",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-53.png"
+  },
+  {
+    "id": "54",
+    "name": "Брелок | Крошка Бивень",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-54.png"
+  },
+  {
+    "id": "55",
+    "name": "Брелок | Крошка Слизь",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-55.png"
+  },
+  {
+    "id": "56",
+    "name": "Брелок | Гавайский вайб",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-56.png"
+  },
+  {
+    "id": "57",
+    "name": "Брелок | Крошка Винодел",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-57.png"
+  },
+  {
+    "id": "58",
+    "name": "Брелок | Крошка Полароид",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-58.png"
+  },
+  {
+    "id": "59",
+    "name": "Брелок | Крошка Привидение",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-59.png"
+  },
+  {
+    "id": "60",
+    "name": "Брелок | Крошка Птенчик",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-60.png"
+  },
+  {
+    "id": "61",
+    "name": "Брелок | Мегамозг",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-61.png"
+  },
+  {
+    "id": "62",
+    "name": "Брелок | Биомеханический",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-62.png"
+  },
+  {
+    "id": "63",
+    "name": "Брелок | Взрывкот",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-63.png"
+  },
+  {
+    "id": "64",
+    "name": "Брелок | Жёсткий",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-64.png"
+  },
+  {
+    "id": "65",
+    "name": "Брелок | Пушок",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-65.png"
+  },
+  {
+    "id": "66",
+    "name": "Брелок | Резной",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-66.png"
+  },
+  {
+    "id": "67",
+    "name": "Брелок | Крошка Дзэн",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-67.png"
+  },
+  {
+    "id": "68",
+    "name": "Брелок | Крошка с подтяжкой",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-68.png"
+  },
+  {
+    "id": "69",
+    "name": "Брелок | Крошка Зубастик",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-69.png"
+  },
+  {
+    "id": "70",
+    "name": "Брелок | Чёртов крошка",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-70.png"
+  },
+  {
+    "id": "71",
+    "name": "Брелок | Крошка Пельмень",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-71.png"
+  },
+  {
+    "id": "72",
+    "name": "Брелок | Бомбезное граффити",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-72.png"
+  },
+  {
+    "id": "73",
+    "name": "Брелок | Блестящая бомба",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-73.png"
+  },
+  {
+    "id": "74",
+    "name": "Брелок | Эко-крошка",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-74.png"
+  },
+  {
+    "id": "75",
+    "name": "Брелок | Голодные глаза",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-75.png"
+  },
+  {
+    "id": "76",
+    "name": "Брелок | Всевидящий глаз",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-76.png"
+  },
+  {
+    "id": "77",
+    "name": "Брелок | Крошка Йети",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-77.png"
+  },
+  {
+    "id": "78",
+    "name": "Брелок | Восьмёрка лидера",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-78.png"
+  },
+  {
+    "id": "79",
+    "name": "Брелок | Вспыхивающая бомба",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-79.png"
+  },
+  {
+    "id": "80",
+    "name": "Брелок | Адский крошка",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-80.png"
+  },
+  {
+    "id": "81",
+    "name": "Брелок | Братан-бутан",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-81.png"
+  },
+  {
+    "id": "82",
+    "name": "Брелок | Доктор Брайан",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-82.png"
+  },
+  {
+    "id": "100",
+    "name": "Charm | kensizor — решающий эйс ",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "101",
+    "name": "Charm | s1zzi — эйс",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "102",
+    "name": "Charm | venomzera — один против трёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "103",
+    "name": "Charm | donk — четыре убийства одиночными",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "104",
+    "name": "Charm | AZUWU — эйс из «Дигла»",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "105",
+    "name": "Charm | w0nderful — один с 2 ед. здоровья против четырёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "106",
+    "name": "Charm | sh1ro — четыре убийства со схваткой против двух",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "107",
+    "name": "Charm | magixx — эйс из разного оружия",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "108",
+    "name": "Charm | KSCERATO — один против трёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "109",
+    "name": "Charm | YEKINDAR — тройное убийство",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "110",
+    "name": "Charm | ZywOo — эйс со схваткой против трёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "111",
+    "name": "Charm | dgt — эйс из пистолета",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "112",
+    "name": "Charm | woxic — один против четырёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "113",
+    "name": "Charm | NiKo — четверное убийство",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "114",
+    "name": "Charm | Krabeni — эйс",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "115",
+    "name": "Charm | Boombl4 — один против трёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "116",
+    "name": "Charm | soulfly — один против двух",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "117",
+    "name": "Charm | sh1ro — эйс",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "118",
+    "name": "Charm | magixx — один против четырёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "119",
+    "name": "Charm | donk — один против двух",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "120",
+    "name": "Charm | kyousuke — три убийства",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "121",
+    "name": "Charm | mezii — убийство броском Молотова",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "122",
+    "name": "Charm | yuurih — один против четырёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "123",
+    "name": "Charm | HUASOPEEK — эйс",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "124",
+    "name": "Charm | max — один против двух",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "125",
+    "name": "Charm | soulfly — три убийства",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "126",
+    "name": "Charm | KSCERATO — эйс",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "127",
+    "name": "Charm | YEKINDAR — два убийства",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "128",
+    "name": "Charm | YEKINDAR — три убийства",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "129",
+    "name": "Charm | KSCERATO — четверное убийство",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "130",
+    "name": "Charm | kyousuke — тройное убийство",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "131",
+    "name": "Charm | sh1ro — четверное убийство",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "132",
+    "name": "Charm | TeSeS — один против двух",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "133",
+    "name": "Charm | karrigan — четыре убийства",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "134",
+    "name": "Charm | magixx — четыре убийства",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "135",
+    "name": "Charm | Team Falcons — выход на сцену",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "136",
+    "name": "Charm | FURIA — выход на сцену",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "137",
+    "name": "Charm | FalleN — четверное убийство",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "138",
+    "name": "Charm | m0NESY — четыре убийства",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "139",
+    "name": "Charm | m0NESY — три убийства со схваткой против двух",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "140",
+    "name": "Charm | kyousuke — четыре убийства",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "141",
+    "name": "Charm | karrigan — три убийства",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "142",
+    "name": "Charm | NiKo — тройное убийство",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "143",
+    "name": "Charm | karrigan — двойное убийство",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "144",
+    "name": "Charm | m0NESY — решающее убийство мейджора",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "145",
+    "name": "Charm | Team Falcons — поднятие кубка",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "36",
+    "name": "Charm | Яркий момент BLAST.tv Austin Major 2025",
+    "image": "s2r://panorama/images/econ/keychains/aus2025/kc_aus2025_png.vtex"
+  },
+  {
+    "id": "37",
+    "name": "Charm | Слэб",
+    "image": "s2r://panorama/images/econ/keychains/sticker_display_case/kc_sticker_display_case_png.vtex"
+  },
+  {
+    "id": "83",
+    "name": "Charm | Яркий момент StarLadder Budapest Major 2025",
+    "image": ""
+  },
+  {
+    "id": "84",
+    "name": "Charm | Яркий момент IEM Cologne Major 2026",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "85",
+    "name": "Charm | ultimate — убийство в прыжке",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "86",
+    "name": "Charm | tabseN — один против двух",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "87",
+    "name": "Charm | koala — эйс",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "88",
+    "name": "Charm | Starry — четверное убийство",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "89",
+    "name": "Charm | asap — эйс",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "90",
+    "name": "Charm | hypex — убийство дымовой гранатой",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "91",
+    "name": "Charm | susp — один против трёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "92",
+    "name": "Charm | beastik — четверное убийство",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "93",
+    "name": "Charm | s1zzi — один против трёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "94",
+    "name": "Charm | Magnojez — один против трёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "95",
+    "name": "Charm | NertZ — эйс",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "96",
+    "name": "Charm | Gizmy — убийство ножом",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "97",
+    "name": "Charm | MATYS — эйс",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "98",
+    "name": "Charm | saffee — тройное убийство",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  },
+  {
+    "id": "99",
+    "name": "Charm | gr1ks — один с AWP против трёх",
+    "image": "s2r://panorama/images/econ/keychains/cologne2026/kc_cologne2026_png.vtex"
+  }
 ]

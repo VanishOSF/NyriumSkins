@@ -1,4 +1,4 @@
-NyriumSkins 0.1.0
+NyriumSkins 0.2.0 BETA
 Maintained and modified by pad7rar.
 Website: https://nyrium.global
 GitHub: https://github.com/VanishOSF
@@ -9,6 +9,6 @@ Upstream: https://github.com/Nereziel/cs2-WeaponPaints
 Upstream revision: fa8936f3959310acf94de410bc5bd0015f34ff24
 This derivative is licensed under GNU GPL version 3; see LICENSE.
 This binary distribution is not a proprietary relicense.
-Source files are not included in this repository. Distribution of the
-binaries requires providing Corresponding Source in compliance with GPLv3.
-This notice is not itself a source offer or a substitute for that requirement.
+Plugin source is not included in this public repository.
+Removing source does not waive GPLv3 Corresponding Source obligations.
+Dependencies and upstream attribution remain subject to their own licenses.

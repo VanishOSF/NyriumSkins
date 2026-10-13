@@ -1,4 +1,5 @@
 {
+  "NyriumPanelEnabled": true,
   "DatabaseHost": "",
   "DatabasePort": 3306,
   "DatabaseUser": "",

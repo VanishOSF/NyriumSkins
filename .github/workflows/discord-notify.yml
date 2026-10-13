@@ -1,8 +1,6 @@
 name: Discord announcements
 
 on:
-  push:
-    branches: [main]
   release:
     types: [published]
   workflow_dispatch:
@@ -15,12 +13,13 @@ jobs:
     timeout-minutes: 3
     env:
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-      DISCORD_MENTION: ${{ vars.DISCORD_MENTION }}
-      DISCORD_PING_COMMITS: ${{ vars.DISCORD_PING_COMMITS }}
+      DISCORD_MENTION: everyone
     steps:
       - name: Check webhook configuration
         if: env.DISCORD_WEBHOOK_URL == ''
-        run: echo "::warning::Add the DISCORD_WEBHOOK_URL repository secret to activate Discord announcements."
+        run: |
+          echo "::error::Configure DISCORD_WEBHOOK_URL to send announcements / Configurati DISCORD_WEBHOOK_URL pentru anunturi."
+          exit 1
 
       - name: Send NyriumSkins announcement
         if: env.DISCORD_WEBHOOK_URL != ''
@@ -46,18 +45,19 @@ jobs:
             const commits = Array.isArray(event.commits) ? event.commits : [];
             const embed = {
               author: { name: 'NYRIUM-SKINS', url: 'https://nyrium.global' },
-              title: release ? limit(`New release: ${event.release.tag_name}`, 256)
-                : kind === 'push' ? 'NyriumSkins repository update' : 'NyriumSkins notification test',
+              title: release ? limit(`NyriumSkins ${event.release.tag_name}${event.release.prerelease ? ' BETA' : ''} | Versiune noua / New release`, 256)
+                : 'NyriumSkins | Test notificare / Notification test',
               url: release ? event.release.html_url : (event.compare || repoUrl),
               color: release ? 0xD4AF37 : 0x54C7DB,
               description: release
-                ? limit(event.release.body || 'A new version is available. Open the release for details and downloads.', 3000)
+                ? limit(event.release.body || 'RO: Detalii si instalare in release.\nEN: See the release for details and installation.', 3000)
                 : kind === 'push'
                   ? commits.slice(-6).map(c => `[${c.id.slice(0, 7)}](${repoUrl}/commit/${c.id}) ${escape(c.message.split('\n')[0])}`).join('\n') || 'The main branch has been updated.'
-                  : 'Discord announcements are connected successfully. This test does not ping members.',
+                  : 'RO: Test de conectare fara mentionarea membrilor.\nEN: Connection test without pinging members.',
               fields: [
-                { name: 'Project', value: `[NyriumSkins](${repoUrl})`, inline: true },
-                { name: 'Published by', value: escape(event.sender?.login || process.env.GITHUB_ACTOR), inline: true },
+                { name: 'Proiect / Project', value: `[NyriumSkins](${repoUrl})`, inline: true },
+                { name: 'Publicat de / Published by', value: escape(event.sender?.login || process.env.GITHUB_ACTOR), inline: true },
+                { name: 'Bug-uri / Bugs', value: 'RO: Creati un ticket pe Discord cu pasii, logurile si capturile.\nEN: Open a Discord ticket with steps, logs and screenshots.\nNu trimiteti parole/tokenuri. Never share passwords/tokens.' },
                 { name: 'Links', value: `[Website](https://nyrium.global) | [Discord](https://discord.gg/FmGBPWTkDP) | [Releases](${repoUrl}/releases)` }
               ],
               footer: { text: release ? 'NyriumSkins | Release announcement' : 'NyriumSkins | Development activity' },
@@ -65,13 +65,13 @@ jobs:
             };
             const allowed = { parse: [], users: [], roles: [] };
             let mention = '';
-            const ping = release || (kind === 'push' && process.env.DISCORD_PING_COMMITS === 'true');
+            const ping = release;
             const configured = process.env.DISCORD_MENTION || '';
             if (ping && configured === 'everyone') { mention = '@everyone'; allowed.parse = ['everyone']; }
             else if (ping && /^\d{17,20}$/.test(configured)) { mention = `<@&${configured}>`; allowed.roles = [configured]; }
             const payload = {
               username: 'NyriumSkins Updates',
-              content: `${mention}${mention ? '\n' : ''}${release ? 'A new NyriumSkins release is available!' : 'News from NyriumSkins.'}`,
+              content: `${mention}${mention ? '\n' : ''}${release ? 'RO: O noua versiune NyriumSkins este disponibila!\nEN: A new NyriumSkins version is available!' : 'RO: Test notificare.\nEN: Notification test.'}`,
               allowed_mentions: allowed,
               embeds: [embed]
             };

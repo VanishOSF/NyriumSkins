@@ -7,9 +7,14 @@
 *.cs
 *.csproj
 *.sln
+/source/
+/tools/
+/workshop/content/
 **/bin/
 **/obj/
-**/source/
-**/sources/
 .env
 .env.*
+**/preview-themes.json
+**/admins.json
+**/logs/
+**/core.json
