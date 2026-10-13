@@ -12,7 +12,9 @@ Distributie binara 0.2.0 BETA. Nu contine surse C#, scripturi de build sau surse
 - Optiunea JSON NyriumPanelEnabled pentru activarea/dezactivarea panelului.
 - Refresh cu inlocuire verificata, curatarea originalului si protectie temporara la pickup.
 - Testele de gameplay si salvare/reconectare DB au fost confirmate de autor. Versiunea ramane BETA.
-- Manusile, agentii si muzica raman preview-only in noul APPLY; meniurile clasice sunt separate.
+- Adaugata si remediata alegerea agentilor si manusilor din !nyrium, cu salvare MySQL si aplicare in joc, confirmate prin testare de autor. Agentii respecta echipa selectata.
+- Muzica ramane preview-only in noul APPLY; meniurile clasice sunt separate.
+- Pentru acest update inlocuiti doar NyriumSkins.dll cu serverul oprit. Nu este necesar Workshop Re-Upload.
 
 ### Instalare
 1. Opriti serverul si faceti backup configuratiei si DB. Nu rulati WeaponPaints simultan.
@@ -47,7 +49,9 @@ Binary distribution 0.2.0 BETA. No C# source, build scripts or editable Panorama
 - NyriumPanelEnabled JSON toggle.
 - Checked replacement, original cleanup and temporary pickup protection during refresh.
 - Gameplay and DB save/reconnect tests confirmed by the author. This remains a BETA.
-- Gloves, agents and music remain preview-only in the new APPLY flow; classic menus are separate.
+- Added and fixed agent and glove selection through !nyrium, with MySQL persistence and in-game application confirmed by the author's tests. Agents respect the selected team.
+- Music remains preview-only in the new APPLY flow; classic menus are separate.
+- For this update, replace only NyriumSkins.dll while the server is stopped. No Workshop re-upload is required.
 
 ### Installation
 1. Stop the server and back up configuration/DB. Do not run WeaponPaints alongside this plugin.
