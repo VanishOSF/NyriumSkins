@@ -1,6 +1,7 @@
 {
   "NyriumPanelEnabled": true,
-  "RequireMatchingWeaponForApply": true,
+  "RequireMatchingWeaponForApply": false,
+  "RedirectLegacyMenusToPanel": true,
   "DatabaseHost": "",
   "DatabasePort": 3306,
   "DatabaseUser": "",
