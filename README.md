@@ -1,4 +1,4 @@
-# NyriumSkins 0.2.0 BETA
+# NyriumSkins 0.2.1 BETA
 
 ## Update 2026-10-16 / RO
 - Scroll in filtrele Model, Rarity si Sort, fara Next/Previous. Catalogul principal ramane paginat.
@@ -12,7 +12,7 @@
 ### Instalare update / RO
 1. Opriti serverul si pastrati backup pentru DLL, configuratie, DB si resurse Workshop.
 2. Copiati `workshop/game/panorama/` din branch-ul main in `game/csgo_addons/ADDON_NAME/panorama/`. Faceti Workshop Re-Upload pe addonul propriu, pastrand ID-ul. Nu mai este necesar daca versiunea de scroll este deja publicata si descarcata.
-3. Inlocuiti `game/csgo/addons/counterstrikesharp/plugins/NyriumSkins/NyriumSkins.dll` cu DLL-ul din release sau main. Nu inlocuiti dependentele ori gamedata pentru acest update.
+3. Inlocuiti `NyriumSkins.dll` si `NyriumSkins.deps.json` din `game/csgo/addons/counterstrikesharp/plugins/NyriumSkins/` cu fisierele 0.2.1 din release sau main. Nu inlocuiti DLL-urile dependente ori gamedata pentru acest update.
 4. Editati configuratia existenta `game/csgo/addons/counterstrikesharp/configs/plugins/NyriumSkins/NyriumSkins.json`. Adaugati optiunile de mai jos o singura data, in interiorul obiectului principal, nu in Additional. Nu copiati exemplul peste credentialele DB.
 5. Porniti serverul. Pluginul creeaza automat tabelul aditiv `wp_nyrium_overview`; utilizatorul DB necesita drepturi CREATE, SELECT, INSERT si UPDATE. Nu se sterg skin-uri existente.
 6. Verificati !nyriumstatus: `RequireMatchingWeaponForApply=False`. Verificati descarcarea addonului Workshop, apoi testati APPLY cu alta arma in mana si Overview dupa reconectare.
@@ -38,7 +38,7 @@ Fragmentul de mai sus arata doar optiunile, nu o configuratie completa. Cu `Redi
 ### Update installation / EN
 1. Stop the server and back up the DLL, config, database and Workshop resources.
 2. Copy `workshop/game/panorama/` from main into your own `game/csgo_addons/ADDON_NAME/panorama/`. Re-upload your Workshop addon, keeping its ID. Skip this if the scroll resources are already published and downloaded.
-3. Replace `game/csgo/addons/counterstrikesharp/plugins/NyriumSkins/NyriumSkins.dll` with the release or main DLL. No dependency or gamedata replacement is required for this update.
+3. Replace `NyriumSkins.dll` and `NyriumSkins.deps.json` in `game/csgo/addons/counterstrikesharp/plugins/NyriumSkins/` with the 0.2.1 files from the release or main. No dependency DLL or gamedata replacement is required for this update.
 4. Edit your existing `game/csgo/addons/counterstrikesharp/configs/plugins/NyriumSkins/NyriumSkins.json`. Add the options shown above once, inside the root object, not Additional. Preserve database credentials and all unrelated settings.
 5. Start the server. The plugin automatically creates the additive `wp_nyrium_overview` table; the database account needs CREATE, SELECT, INSERT and UPDATE permissions. Existing skins are not deleted.
 6. Check !nyriumstatus for `RequireMatchingWeaponForApply=False`. Verify Workshop download, then test APPLY while holding another weapon and Overview after reconnecting.
@@ -54,7 +54,7 @@ EN: Report bugs through a ticket at https://discord.gg/FmGBPWTkDP. Never share c
 [Discord / Tickets](https://discord.gg/FmGBPWTkDP) | [Website](https://nyrium.global)
 
 ## RO
-Distributie binara 0.2.0 BETA. Nu contine surse C#, scripturi de build sau surse Panorama editabile.
+Distributie binara 0.2.1 BETA. Nu contine surse C#, scripturi de build sau surse Panorama editabile.
 `server/` contine pluginul, dependintele si exemplul de configurare; `workshop/game/` contine numai resurse compilate.
 
 ### Noutati
@@ -91,7 +91,7 @@ Fiecare client publica pe propriul Workshop; nu exista ID comun. Resursele schim
 Raportati bug-uri printr-un **ticket pe Discord** cu versiunea, pasii, logurile si capturile. Nu trimiteti parole/tokenuri.
 
 ## EN
-Binary distribution 0.2.0 BETA. No C# source, build scripts or editable Panorama source is included.
+Binary distribution 0.2.1 BETA. No C# source, build scripts or editable Panorama source is included.
 `server/` contains runtime files and example configuration; `workshop/game/` contains compiled resources only.
 
 ### Changes
