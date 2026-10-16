@@ -4,6 +4,11 @@ on:
   release:
     types: [published]
   workflow_dispatch:
+    inputs:
+      update_message:
+        description: 'RO/EN update announcement (empty sends a test without ping)'
+        type: string
+        required: false
 
 permissions: {}
 
@@ -39,13 +44,15 @@ jobs:
             url.searchParams.set('wait', 'true');
             const repository = process.env.GITHUB_REPOSITORY;
             const repoUrl = `https://github.com/${repository}`;
-            const release = kind === 'release';
+            const update = kind === 'workflow_dispatch' && String(event.inputs?.update_message || '').trim();
+            const release = kind === 'release' || Boolean(update);
+            if (update) event.release = { tag_name: '0.2.0', prerelease: true, html_url: `${repoUrl}/releases/tag/v0.2.0`, body: update };
             const limit = (value, max) => String(value ?? '').slice(0, max);
             const escape = value => limit(value, 180).replace(/[\\`*_~\[\]<>]/g, '\\$&');
             const commits = Array.isArray(event.commits) ? event.commits : [];
             const embed = {
               author: { name: 'NYRIUM-SKINS', url: 'https://nyrium.global' },
-              title: release ? limit(`NyriumSkins ${event.release.tag_name}${event.release.prerelease ? ' BETA' : ''} | Versiune noua / New release`, 256)
+              title: release ? limit(`NyriumSkins ${event.release.tag_name}${event.release.prerelease ? ' BETA' : ''} | ${update ? 'Actualizare / Update' : 'Versiune noua / New release'}`, 256)
                 : 'NyriumSkins | Test notificare / Notification test',
               url: release ? event.release.html_url : (event.compare || repoUrl),
               color: release ? 0xD4AF37 : 0x54C7DB,
