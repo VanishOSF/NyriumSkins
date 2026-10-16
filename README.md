@@ -1,5 +1,37 @@
 # NyriumSkins 0.2.0 BETA
 
+## Update 2026-10-16 / RO
+- Scroll in listele de filtre Model, Rarity si Sort, fara Next/Previous. Catalogul principal ramane paginat.
+- Optiune JSON `RequireMatchingWeaponForApply`: implicit `true`; setati `false` pentru salvare fara arma potrivita in mana si refresh automat al armei/cutitului deja detinut.
+- Arma selectata este echipata scurt pentru refresh; alte tipuri de arme nu sunt oferite. Daca arma lipseste, selectia se aplica la cumparare/pickup. Manusile pastreaza aplicarea automata.
+- Mesajele tehnice de refresh nu mai apar in chat. Testele de gameplay au fost confirmate de autor; versiunea ramane BETA, fara garantie pentru toate mediile.
+
+### Instalare update / RO
+1. Opriti serverul si pastrati un backup al DLL-ului, configuratiei si resurselor Workshop.
+2. Copiati fisierele din `workshop/game/panorama/` in `game/csgo_addons/ADDON_NAME/panorama/` din instalarea proprie CS2. Faceti Workshop Re-Upload pe addonul propriu, pastrand ID-ul existent.
+3. Inlocuiti `game/csgo/addons/counterstrikesharp/plugins/NyriumSkins/NyriumSkins.dll` cu DLL-ul actualizat.
+4. In configuratia existenta `game/csgo/addons/counterstrikesharp/configs/plugins/NyriumSkins/NyriumSkins.json`, adaugati `"RequireMatchingWeaponForApply": false` daca doriti comportamentul nou. Nu suprascrieti credentialele DB cu exemplul din Git.
+5. Porniti serverul, verificati descarcarea noii versiuni Workshop si testati filtrele si aplicarea. DLL-ul si resursele trebuie actualizate impreuna. Nu este necesara migrare DB sau schimbarea dependentelor.
+
+## Update 2026-10-16 / EN
+- Scrollable Model, Rarity and Sort filter lists without Next/Previous. The main catalog remains paginated.
+- New JSON option `RequireMatchingWeaponForApply`: defaults to `true`; set to `false` to save without holding the matching weapon and automatically refresh an already-owned weapon/knife.
+- The selected weapon is briefly equipped for refresh. No different weapon is granted; missing weapons receive the saved selection on purchase/pickup. Gloves retain automatic application.
+- Removed technical refresh messages from player chat. Gameplay tests were confirmed by the author; this remains BETA, not a guarantee for every environment.
+
+### Update installation / EN
+1. Stop the server and back up the current DLL, configuration and Workshop resources.
+2. Copy `workshop/game/panorama/` into your own CS2 `game/csgo_addons/ADDON_NAME/panorama/`. Re-upload your own Workshop addon, keeping its existing ID.
+3. Replace `game/csgo/addons/counterstrikesharp/plugins/NyriumSkins/NyriumSkins.dll` with the updated DLL.
+4. Add `"RequireMatchingWeaponForApply": false` to your existing `game/csgo/addons/counterstrikesharp/configs/plugins/NyriumSkins/NyriumSkins.json` to enable the new behavior. Do not overwrite database credentials with the Git example.
+5. Start the server, verify the updated Workshop download and test filters and application. Update DLL and resources together. No database migration or dependency changes required.
+
+RO: Raportati bug-uri prin ticket pe https://discord.gg/FmGBPWTkDP.
+EN: Report bugs through a ticket at https://discord.gg/FmGBPWTkDP.
+
+---
+
+
 [Discord / Tickets](https://discord.gg/FmGBPWTkDP) | [Website](https://nyrium.global)
 
 ## RO

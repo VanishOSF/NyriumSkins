@@ -1,5 +1,6 @@
 {
   "NyriumPanelEnabled": true,
+  "RequireMatchingWeaponForApply": true,
   "DatabaseHost": "",
   "DatabasePort": 3306,
   "DatabaseUser": "",
